@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #082a69;
+    color: #ffffff;
+    padding-top: 39px;
+    min-height: 79px;
+    border-bottom: #11bee9 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    background: #082a69;
+    color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+section h2 {
+    color: #35424a;
+    text-align: center;
+}
+
+.service-list, .project-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.service-item, .project-item {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+}
+
+footer {
+    background: #082a69;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
